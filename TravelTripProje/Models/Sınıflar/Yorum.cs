@@ -14,6 +14,7 @@ namespace TravelTripProje.Models.Sınıflar
         public string KullaniciAdi { get; set; }
         public string Mail { get; set; }
         public string Yorums { get; set; }
-        public Blog Blog { get; set; }
+        public int Blogid { get; set; } 
+        public virtual Blog Blog { get; set; }
     }
 }
